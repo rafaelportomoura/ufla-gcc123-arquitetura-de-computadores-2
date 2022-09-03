@@ -1,0 +1,12 @@
+{
+  "name": "fused-multiply-add",
+  "version": "1.0.0",
+  "description": "Escreva um programa que suporte a entrada de três vetores A, B e C. Uma instrução do AVX deve realizar uma operação de Fused Multiply Add, conforme apresenta o código abaixo :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
