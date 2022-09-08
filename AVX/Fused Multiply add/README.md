@@ -19,8 +19,8 @@ Usando uma instrução SIMD do AVX, escreva um código que realize a operação 
 considerando que a entrada deve ser independente e selecionada de acordo com os tipos de dados
 dos vetores:
 
-a) double (4 x 64bits),
-b) float (8 x 32bits)
-c) integer (8 x 32 bits).
+a) double (4 x 64bits),  
+b) float (8 x 32bits)  
+c) integer (8 x 32 bits). 
 
 Apresente os resultados convenientemente na tela para cada tipo de entrada.
