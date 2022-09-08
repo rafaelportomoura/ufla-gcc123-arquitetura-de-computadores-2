@@ -46,9 +46,9 @@ def exec_cmd():
             output_file = getOutput(1, i+1)
             cmd = f'./{exe}{getInput(1,i+1)}{output_file}'
             print(cmd)
-            test = read(output_file.replace(' > ', ''))
-            all_tests += f'Teste {i+1}\n'
-            all_tests += f'{test}\n'
+            # test = read(output_file.replace(' > ', ''))
+            # all_tests += f'Teste {i+1}\n'
+            # all_tests += f'{test}\n'
             os.system(cmd)
     else:
         output_file = getOutput()
