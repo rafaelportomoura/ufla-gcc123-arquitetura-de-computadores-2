@@ -1,0 +1,14 @@
+{
+  "name": "Fused_Multiply_add",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "yarn run comp && yarn run test",
+    "dev:out": "yarn run comp && yarn run test:out",
+    "dev:in": "yarn run comp && yarn run test:in",
+    "test:out": "python3 ../util/runner.py main.exe --numeric_inputs=3 out",
+    "test:in": "python3 ../util/runner.py main.exe --numeric_inputs=3",
+    "test": "python3 ../util/runner.py main.exe",
+    "comp": "python3 ../util/compiler.py main"
+  },
+  "license": "MIT"
+}
